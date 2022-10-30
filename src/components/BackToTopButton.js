@@ -26,12 +26,11 @@ export const BackToTopButton = () => {
             {backToTopButton && (
                 <button style={{
                     position: "fixed",
-                    bottom: "70px",
+                    bottom: "110px",
                     right: "20px",
                     height: "50px",
                     width: "50px",
                     fontSize: "50px",
-                    
                 }}
                 onClick={scrollUp}>^</button>
             )}
